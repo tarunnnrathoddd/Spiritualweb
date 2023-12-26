@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px #ccc;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  margin: 0;
+}
+
+.header h1 span {
+  color: #3567bc;
+}
+
+.header nav {
+  display: flex;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.header a:hover {
+  opacity: 0.8;
+}
+
+/* Responsive Header */
+@media all and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header h1 {
+    margin-bottom: 15px;
+  }
+
+  .header nav {
+    margin-top: 15px;
+  }
+
+  .header a {
+    padding: 10px 0;
+    display: block;
+  }
+}
+/* registeration css*/
+
+.registration-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.registration-container h2 {
+  text-align: center;
+}
+
+.registration-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-container label {
+  margin-top: 10px;
+}
+
+.registration-container input {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-container button {
+  padding: 10px;
+  background-color: #292c2f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-container button:hover {
+  background-color: #555;
+}
+
+/* login css */
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 400px;
+  background-color: #ffffff;
+  padding: 20px 50px;
+}
+
+.card-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card-title h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.card-title p {
+  font-size: 14px;
+  color: #555;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e2e2e2;
+  outline: none;
+}
+
+.form button {
+  background-color: #4796ff;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: #3072c4;
+}
+
+.card-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-footer span {
+  font-size: 14px;
+}
+
+.card-footer a {
+  color: #4796ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(249, 170, 34) 0%,
+    rgb(224, 247, 108) 90%
+  );
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 400px;
+  background-color: #ffffff;
+  padding: 20px 50px;
+}
+
+.card-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card-title h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.card-title p {
+  font-size: 14px;
+  color: #555;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e2e2e2;
+  outline: none;
+}
+
+.form button {
+  background-color: #4796ff;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card-terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: -170px;
+}
+
+.card-terms input[type="checkbox"] {
+  margin-right: -75px;
+}
+
+.card-terms a {
+  color: #4796ff;
+  text-decoration: none;
+}
+
+.card-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-footer span {
+  font-size: 14px;
+}
+
+.card-footer a {
+  color: #4796ff;
+  text-decoration: none;
+  font-weight: bold;
+}

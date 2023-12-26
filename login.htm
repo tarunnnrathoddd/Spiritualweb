@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-title">
+                <h1>Welcome Back to Spiritual Sthan</h1>
+                <p>Login to continue your spiritual journey.</p>
+            </div>
+            <div class="form">
+                <form action="/login.htm" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="card-footer">
+                <span>Don't have an account? <a href="registeration.htm">Sign Up</a></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
